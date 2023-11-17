@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. ExperimentalAttribute", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCore", "EFCore", "{973BACF1-F3F9-4DB9-BCE4-F325830266A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveCollections", "EFCore\PrimitiveCollections\PrimitiveCollections.csproj", "{543AA8A1-D649-4987-91CE-0A837DF48461}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. PrimitiveCollections", "EFCore\PrimitiveCollections\2. PrimitiveCollections.csproj", "{543AA8A1-D649-4987-91CE-0A837DF48461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLRawQueriesForUnmappedTypes", "EFCore\SQLRawQueriesForUnmappedTypes\SQLRawQueriesForUnmappedTypes.csproj", "{AA919893-FF75-483F-BBFC-84B3F41EBB81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. SQLRawQueriesForUnmappedTypes", "EFCore\SQLRawQueriesForUnmappedTypes\3. SQLRawQueriesForUnmappedTypes.csproj", "{AA919893-FF75-483F-BBFC-84B3F41EBB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectsComplexTypes", "EFCore\ValueObjectsComplexTypes\ValueObjectsComplexTypes.csproj", "{6F2F9461-1E91-4A02-AB4C-1BEC3B798B6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ValueObjectsComplexTypes", "EFCore\ValueObjectsComplexTypes\1. ValueObjectsComplexTypes.csproj", "{6F2F9461-1E91-4A02-AB4C-1BEC3B798B6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
