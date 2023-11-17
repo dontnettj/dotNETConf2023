@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp12", "CSharp12\CSharp12.csproj", "{8BC14D79-CC25-42DB-B41E-4E933C2B6F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore8", "EFCore8\EFCore8.csproj", "{C9AF1779-2C4E-43B9-95CA-DE63EB4B1894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC14D79-CC25-42DB-B41E-4E933C2B6F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC14D79-CC25-42DB-B41E-4E933C2B6F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC14D79-CC25-42DB-B41E-4E933C2B6F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC14D79-CC25-42DB-B41E-4E933C2B6F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AF1779-2C4E-43B9-95CA-DE63EB4B1894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AF1779-2C4E-43B9-95CA-DE63EB4B1894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AF1779-2C4E-43B9-95CA-DE63EB4B1894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AF1779-2C4E-43B9-95CA-DE63EB4B1894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6C08896-0C8E-42BE-AF3E-CD1CE410588B}
+	EndGlobalSection
+EndGlobal
