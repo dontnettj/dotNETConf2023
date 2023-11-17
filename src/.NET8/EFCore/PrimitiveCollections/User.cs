@@ -14,7 +14,7 @@ namespace EFCore8.PrimitiveCollections
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("data source=localhost;Initial Catalog=PrimitiveCollections;integrated security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlite("Data Source=PrimitiveCollections.db;");
         }
         public DbSet<User> Users { get; set; }
     }

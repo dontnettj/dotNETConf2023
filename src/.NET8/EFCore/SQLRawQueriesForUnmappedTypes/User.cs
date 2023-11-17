@@ -21,7 +21,7 @@ namespace EFCore8.SQLRawQueriesForUnmappedTypes
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("data source=localhost;Initial Catalog=SQLRawQueriesForUnmappedTypes;integrated security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlite("Data Source=SQLRawQueriesForUnmappedTypes.db;");
         }
         public DbSet<Order> Orders { get; set; }
     }

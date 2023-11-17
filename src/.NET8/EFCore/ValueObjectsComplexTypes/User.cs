@@ -21,7 +21,7 @@ namespace EFCore8.ValueObjectsComplexTypes
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("data source=localhost;Initial Catalog=ValueObjectsComplexTypes;integrated security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlite("Data Source=dbValueObjectsComplexTypes.db;");
         }
         public DbSet<User> Users { get; set; }
     }
