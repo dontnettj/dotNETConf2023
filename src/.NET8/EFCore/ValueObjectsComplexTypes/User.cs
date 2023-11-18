@@ -10,8 +10,7 @@ namespace EFCore8.ValueObjectsComplexTypes
         public required Contact Contact { get; set; }
     }
 
-    [ComplexType]
-    public record Contact()
+    public class Contact()
     {
         public required string PhoneNumber { get; set; }
         public required string Email { get; set; }
