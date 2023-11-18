@@ -2,8 +2,7 @@
 ShowId(ref id);
 Console.WriteLine($"Id is {id}");
 
-static void ShowId(ref int id)
+static void ShowId(ref readonly int id)
 {
     Console.WriteLine($"Id is {id}");
-    id++;
 }

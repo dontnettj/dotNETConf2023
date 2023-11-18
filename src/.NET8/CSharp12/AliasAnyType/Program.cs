@@ -1,6 +1,8 @@
-﻿(int n, int r) coordinate = GetCoordinate();
+﻿using Coordiate = (int n, int r);
 
-static (int n, int r) GetCoordinate()
+Coordiate coordinate = GetCoordinate();
+
+static Coordiate GetCoordinate()
 {
     return (10, 20);
 }

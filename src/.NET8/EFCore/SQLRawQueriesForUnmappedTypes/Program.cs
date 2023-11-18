@@ -17,6 +17,6 @@ var summaries =
      sqRawContext.Database.SqlQuery<MyOrderReport>(
             @$"SELECT o.Contents AS Title, o.Price * o.Quantity as TotalPrice
             FROM Orders AS o")
-        .ToList();
+        .ToList();  
 
 Console.Read();

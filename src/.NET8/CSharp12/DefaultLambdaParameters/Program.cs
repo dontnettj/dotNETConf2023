@@ -1,4 +1,4 @@
-﻿var lamdaMethod = (string menuName) => $"<li>{menuName}</li>";
+﻿var lamdaMethod = (string menuName = "Home page") => $"<li>{menuName}</li>";
 
-Console.WriteLine(lamdaMethod("Home page"));
+Console.WriteLine(lamdaMethod());
 Console.WriteLine(lamdaMethod("About us"));
